@@ -2,15 +2,14 @@ apiVersion: argoproj.io/v1alpha1
 kind: ApplicationSet
 metadata:
   name: operators-appset
-  namespace: openshift-gitops
+  namespace: openshift-operators
 spec:
   goTemplate: true
   goTemplateOptions: ["missingkey=error"]
   generators:
   - git:
       repoURL: https://github.com/kamlendu1982/gitops-catalog.git
-      revision: HEAD
-      branch: ice_aap
+      revision: ice_app
       directories:
       - path: ansible-automation-platform/operator/overlays/stable-2.4
   template:
