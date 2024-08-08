@@ -9,7 +9,7 @@ spec:
   generators:
   - git:
       repoURL: https://github.com/kamlendu1982/gitops-catalog.git
-      revision: ice_app
+      revision: ice_aap
       directories:
       - path: ansible-automation-platform/operator/overlays/stable-2.4
   template:
