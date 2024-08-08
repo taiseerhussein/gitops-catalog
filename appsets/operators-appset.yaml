@@ -22,7 +22,7 @@ spec:
       source:
         repoURL: https://github.com/kamlendu1982/gitops-catalog.git
         targetRevision: ice_aap
-        path: '{{ path }}'
+        path: ansible-automation-platform/operator/overlays/stable-2.4
 
       # Destination cluster and namespace to deploy the application
       destination:
