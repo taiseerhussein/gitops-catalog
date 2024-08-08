@@ -24,6 +24,5 @@ spec:
   projects_persistence: false
   replicas: 1
   admin_user: admin
-  adminPasswordSecret: aap-iceadmin-password
   loadbalancer_protocol: http
 
