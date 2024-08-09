@@ -11,7 +11,7 @@ spec:
       revision: ice_aap
       directories:
       - path: ansible-automation-platform/operator/overlays/stable-2.4
-      - path: ansible-automation-platform/aap-app-default
+      #- path: ansible-automation-platform/aap-app-default
   template:
     metadata:
       name: '{{index .path.segments 0}}-{{index .path.segments 1}}'
