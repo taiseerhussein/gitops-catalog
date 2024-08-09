@@ -5,5 +5,5 @@ kind: Kustomization
 namespace: ansible-automation-platform
 
 
-resources:
-  - ansible-controller-instance-operator-ice.yaml 
+#resources:
+#  - ansible-controller-instance-operator-ice.yaml 
