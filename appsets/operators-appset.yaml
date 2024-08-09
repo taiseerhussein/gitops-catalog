@@ -29,7 +29,8 @@ spec:
       # Destination cluster and namespace to deploy the application
       destination:
         server: https://kubernetes.default.svc
-        namespace: ansible-automation-platform
+        #namespace: ansible-automation-platform
+        namespace: openshift-gitops
 
       # Sync policy
       syncPolicy:

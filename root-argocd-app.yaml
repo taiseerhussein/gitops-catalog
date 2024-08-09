@@ -11,7 +11,7 @@ spec:
     path: appsets
   destination:
     server: https://kubernetes.default.svc
-    namespace: openshift-operators
+    namespace: openshift-gitops
   syncPolicy:
     automated: 
       prune: true 
