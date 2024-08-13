@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/kamlendu1982/gitops-catalog.git
-    targetRevision: ice_aap
+    targetRevision: cust_app
     path: appsets
   destination:
     server: https://kubernetes.default.svc

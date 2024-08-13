@@ -1,7 +1,7 @@
 apiVersion: automationhub.ansible.com/v1beta1
 kind: AutomationHub
 metadata:
-  name: automation-hub-ice
+  name: automation-hub-cust
   namespace: ansible-automation-platform
 spec:
   route_tls_termination_mechanism: Edge
