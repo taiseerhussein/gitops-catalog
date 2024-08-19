@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/kamlendu1982/gitops-catalog.git
+    repoURL: https://github.com/taiseerhussein/gitops-catalog.git
     targetRevision: cust_aap
     path: appsets
   destination:

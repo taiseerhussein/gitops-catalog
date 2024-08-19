@@ -7,12 +7,13 @@ spec:
   goTemplate: true
   generators:
   - git:
-      repoURL: https://github.com/kamlendu1982/gitops-catalog.git
+      repoURL: https://github.com/taiseerhussein/gitops-catalog.git
       revision: cust_aap
       directories:
       - path: ansible-automation-platform/operator/overlays/stable-2.4
       - path: ansible-automation-platform/instance/overlays/default
       - path: ansible-automation-platform/hub-instance/overlays/default
+      - path: ansible-automation-platform/eda-instance/overlays/default
   template:
     metadata:
       name: '{{index .path.segments 0}}-{{index .path.segments 1}}'
@@ -22,7 +23,7 @@ spec:
 
       # Source of the application manifests
       source:
-        repoURL: https://github.com/kamlendu1982/gitops-catalog.git
+        repoURL: https://github.com/taiseerhussein/gitops-catalog.git
         targetRevision: cust_aap
         path: '{{.path.path}}'
 
