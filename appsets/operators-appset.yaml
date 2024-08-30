@@ -13,7 +13,7 @@ spec:
       - path: ansible-automation-platform/operator/overlays/stable-2.4
       - path: ansible-automation-platform/instance/overlays/default
       - path: ansible-automation-platform/hub-instance/overlays/default
-     # - path: ansible-automation-platform/eda-instance/overlays/default
+      - path: ansible-automation-platform/eda-instance/overlays/default
   template:
     metadata:
       name: '{{index .path.segments 0}}-{{index .path.segments 1}}'
