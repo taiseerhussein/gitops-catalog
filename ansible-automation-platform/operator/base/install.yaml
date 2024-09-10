@@ -4,7 +4,7 @@ kind: Namespace
 metadata:
   labels:
     openshift.io/cluster-monitoring: "true"
-    argocd.argoproj.io/managed-by: openshift-operators
+    argocd.argoproj.io/managed-by: openshift-gitops
   name: ansible-automation-platform
 ---
 apiVersion: operators.coreos.com/v1
