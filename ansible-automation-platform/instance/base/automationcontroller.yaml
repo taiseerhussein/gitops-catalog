@@ -6,7 +6,7 @@ metadata:
   annotations:
     argocd.argoproj.io/sync-options: SkipDryRunOnMissingResource=true
 spec:
-  create_preload_data: false
+  create_preload_data: true
   route_tls_termination_mechanism: Edge
   garbage_collect_secrets: true
   ingress_type: Route
