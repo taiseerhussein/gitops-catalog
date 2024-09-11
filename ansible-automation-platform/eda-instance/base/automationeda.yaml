@@ -23,7 +23,7 @@ spec:
     replicas: 1
   redis:
     replicas: 1
-  automation_server_url: taiseer-controller-ansible-automation-platform.apps.rosa-xj754.2sof.p1.openshiftapps.com
+  automation_server_url: controller-cust-ansible-automation-platform.apps.rosa-xj754.2sof.p1.openshiftapps.com/
   admin_user: admin
   loadbalancer_protocol: http
   default_worker:
