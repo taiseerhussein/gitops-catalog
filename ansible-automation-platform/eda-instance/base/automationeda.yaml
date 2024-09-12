@@ -4,6 +4,7 @@ metadata:
   name: automation-eda-cust
   namespace: ansible-automation-platform
 spec:
+  automation_server_ssl_verify: 'no'
   route_tls_termination_mechanism: Edge
   ingress_type: Route
   loadbalancer_port: 80
@@ -23,7 +24,7 @@ spec:
     replicas: 1
   redis:
     replicas: 1
-  automation_server_url: temp-cont-ansible-automation-platform.apps.rosa-xj754.2sof.p1.openshiftapps.com
+  automation_server_url: controller-cust-ansible-automation-platform.apps.rosa-xj754.2sof.p1.openshiftapps.com
   admin_user: admin
   loadbalancer_protocol: http
   default_worker:
