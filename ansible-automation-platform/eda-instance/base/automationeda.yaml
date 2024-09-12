@@ -7,7 +7,7 @@ spec:
   route_tls_termination_mechanism: Edge
   ingress_type: Route
   loadbalancer_port: 80
-  no_log: true
+  no_log: false
   activation_worker:
     replicas: 5
   image_pull_policy: IfNotPresent
@@ -23,7 +23,7 @@ spec:
     replicas: 1
   redis:
     replicas: 1
-  automation_server_url: controller-cust-ansible-automation-platform.apps.rosa-xj754.2sof.p1.openshiftapps.com/
+  automation_server_url: controller-cust-ansible-automation-platform.apps.rosa-xj754.2sof.p1.openshiftapps.com
   admin_user: admin
   loadbalancer_protocol: http
   default_worker:
