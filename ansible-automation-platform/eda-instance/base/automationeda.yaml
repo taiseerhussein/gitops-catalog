@@ -4,7 +4,7 @@ metadata:
   name: automation-eda-cust
   namespace: ansible-automation-platform
 spec:
-  automation_server_ssl_verify: 'no'
+  # automation_server_ssl_verify: 'no'
   route_tls_termination_mechanism: Edge
   ingress_type: Route
   loadbalancer_port: 80
