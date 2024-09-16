@@ -1,7 +1,7 @@
 apiVersion: eda.ansible.com/v1alpha1
 kind: EDA
 metadata:
-  name: automation-eda-cust
+  name: automation-eda
   namespace: ansible-automation-platform
 spec:
   # automation_server_ssl_verify: 'no'
@@ -24,7 +24,7 @@ spec:
     replicas: 1
   redis:
     replicas: 1
-  automation_server_url: https://controller-cust-ansible-automation-platform.apps.rosa-xj754.2sof.p1.openshiftapps.com
+  automation_server_url: https://automation-controller-ansible-automation-platform.apps.rosa-xj754.2sof.p1.openshiftapps.com
   admin_user: admin
   loadbalancer_protocol: http
   default_worker:
