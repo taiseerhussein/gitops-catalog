@@ -10,7 +10,7 @@ spec:
       repoURL: https://github.com/taiseerhussein/gitops-catalog.git
       revision: cust_aap
       directories:
-      - path: ansible-automation-platform/operator/overlays/stable-2.4
+      - path: ansible-automation-platform/operator/overlays/stable-2.5
       - path: ansible-automation-platform/instance/overlays/default
       - path: ansible-automation-platform/hub-instance/overlays/default
       - path: ansible-automation-platform/eda-instance/overlays/default
