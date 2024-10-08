@@ -24,7 +24,7 @@ spec:
     replicas: 1
   redis:
     replicas: 1
-  automation_server_url: https://automation-controller-ansible-automation-platform.apps.rosa-xj754.2sof.p1.openshiftapps.com
+  automation_server_url: https://aap.apps.alice.lab.uc2.io
   admin_user: admin
   loadbalancer_protocol: http
   default_worker:
